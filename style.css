@@ -1,0 +1,147 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: roboto;
+    padding: 40;
+}
+
+.headerbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header {
+    padding-bottom: 20px;
+}
+.headerlinks {
+    display: block;
+    justify-content: flex-end;
+}
+
+.headerlinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+}
+
+.header_splash {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.splash_left {
+    width: 35%;
+    margin-right: 150px;
+    color: #f9faf8
+}
+
+.splash_right {
+    border-radius: 25px;
+    object-fit: cover;
+    width: 40%
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+.sub_hero {
+    font-size: 18px;
+
+}
+
+button {
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.card_section {
+    background-color: white;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_header {
+    font-size: 36px;
+    font-weight: 800; 
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.quote_section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    max-width: 70%;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.footer {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background-color:#3882f6;
+    border-radius: 10px;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+.signup {
+    padding: 20;
+    border-color: white;
+    font-size: 16px;
+}
